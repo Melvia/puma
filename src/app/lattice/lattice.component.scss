@@ -1,0 +1,28 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 30%;
+}
+
+.animal {
+  position: static;
+  top: 0;
+  width: 15px;
+  height: 100%;
+  background-color: black;
+  margin-left: 3px;
+  z-index: 10;
+  float: left;
+}
+
+
+.graphics {
+  position: static;
+  margin: auto;
+  img {
+    margin-left: 30%;
+    width: 1000px;
+  }
+}
+

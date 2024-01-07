@@ -1,16 +1,18 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
-import { LatticeImageComponent } from './lattice-image/lattice-image.component';
+import {AppComponent} from './app.component';
+import {LatticeComponent} from "./lattice/lattice.component";
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    LatticeImageComponent
+
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    LatticeComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "puma:build:production"
+              "buildTarget": "puma:build:production"
             },
             "development": {
-              "browserTarget": "puma:build:development"
+              "buildTarget": "puma:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "puma:build"
+            "buildTarget": "puma:build"
           }
         },
         "test": {
